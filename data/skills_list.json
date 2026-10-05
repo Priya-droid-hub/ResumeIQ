@@ -1,0 +1,75 @@
+{
+  "programming_languages": [
+    "Python", "Java", "C", "C++", "C#", "JavaScript", "TypeScript",
+    "R", "SQL", "PHP", "Swift", "Kotlin", "Go", "Rust", "Scala",
+    "MATLAB", "Perl", "Ruby", "Bash", "Shell", "HTML", "CSS"
+  ],
+  "frameworks_and_libraries": [
+    "Django", "Flask", "FastAPI", "React", "Angular", "Vue.js",
+    "Node.js", "Express.js", "Spring", "Spring Boot", "Hibernate",
+    "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas",
+    "NumPy", "Matplotlib", "Seaborn", "OpenCV", "NLTK", "spaCy",
+    "Hugging Face", "Transformers", "XGBoost", "LightGBM", "Bootstrap",
+    "Tailwind", "jQuery", "Redux", "Next.js", "Nest.js"
+  ],
+  "tools_and_platforms": [
+    "Git", "GitHub", "GitLab", "Bitbucket", "Docker", "Kubernetes",
+    "Jenkins", "Terraform", "Ansible", "Linux", "Ubuntu", "Windows",
+    "MacOS", "VS Code", "IntelliJ", "Eclipse", "Jupyter", "Postman",
+    "Jira", "Confluence", "Slack", "Figma", "Tableau", "Power BI",
+    "Excel", "Hadoop", "Spark", "Kafka", "Airflow", "MLflow"
+  ],
+  "cloud_platforms": [
+    "AWS", "Azure", "Google Cloud", "GCP", "Heroku", "Vercel",
+    "Netlify", "Firebase", "DigitalOcean", "IBM Cloud",
+    "Amazon S3", "EC2", "Lambda", "CloudFormation",
+    "Azure DevOps", "Google BigQuery"
+  ],
+  "databases": [
+    "MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis",
+    "Cassandra", "DynamoDB", "Oracle", "SQL Server", "MariaDB",
+    "Elasticsearch", "Neo4j", "Firebase Realtime Database"
+  ],
+  "machine_learning_and_ai": [
+    "Machine Learning", "Deep Learning", "Neural Networks",
+    "Natural Language Processing", "NLP", "Computer Vision",
+    "Reinforcement Learning", "Transfer Learning", "BERT", "GPT",
+    "Transformers", "Object Detection", "Image Classification",
+    "Sentiment Analysis", "Text Classification", "Time Series",
+    "Regression", "Classification", "Clustering", "Recommendation Systems",
+    "Feature Engineering", "Model Deployment", "MLOps",
+    "Data Augmentation", "Hyperparameter Tuning", "A/B Testing"
+  ],
+  "data_science": [
+    "Data Analysis", "Data Visualization", "Data Wrangling",
+    "Data Cleaning", "Exploratory Data Analysis", "EDA",
+    "Statistical Analysis", "Hypothesis Testing", "Data Mining",
+    "Big Data", "ETL", "Data Pipelines", "Business Intelligence",
+    "Predictive Modeling", "Statistical Modeling"
+  ],
+  "devops_and_cloud": [
+    "CI/CD", "DevOps", "Agile", "Scrum", "Kanban",
+    "Microservices", "REST API", "GraphQL", "gRPC",
+    "Infrastructure as Code", "IaC", "Site Reliability Engineering",
+    "SRE", "Load Balancing", "Auto Scaling", "Monitoring", "Logging"
+  ],
+  "cybersecurity": [
+    "Cybersecurity", "Network Security", "Penetration Testing",
+    "Ethical Hacking", "Cryptography", "Firewalls", "SIEM",
+    "Vulnerability Assessment", "OWASP", "SSL", "TLS"
+  ],
+  "soft_skills": [
+    "Leadership", "Communication", "Problem Solving", "Teamwork",
+    "Critical Thinking", "Time Management", "Adaptability",
+    "Collaboration", "Project Management", "Presentation",
+    "Analytical Thinking", "Attention to Detail", "Decision Making",
+    "Mentoring", "Negotiation", "Conflict Resolution"
+  ],
+  "certifications_and_concepts": [
+    "AWS Certified", "Azure Certified", "Google Certified",
+    "PMP", "Scrum Master", "CISSP", "CEH", "CompTIA",
+    "OOP", "Object Oriented Programming", "Functional Programming",
+    "Design Patterns", "SOLID", "System Design", "Algorithms",
+    "Data Structures", "Distributed Systems"
+  ]
+}

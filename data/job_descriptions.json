@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Python Developer",
+    "company": "TechCorp",
+    "description": "We are looking for an experienced Python developer with strong knowledge of Django, Flask, REST APIs, and SQL databases. Experience with Docker, Git, and Agile methodologies is required. The candidate should have strong problem-solving and communication skills."
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "AI Solutions",
+    "description": "Seeking a Machine Learning Engineer with hands-on experience in TensorFlow, PyTorch, scikit-learn, and deep learning. Must be proficient in Python, data analysis, feature engineering, and model deployment. Experience with AWS or GCP is a plus."
+  },
+  {
+    "title": "Data Scientist",
+    "company": "DataViz Inc",
+    "description": "Looking for a Data Scientist skilled in Python, R, statistical modeling, data visualization, and machine learning. Experience with Pandas, NumPy, Matplotlib, SQL, and Tableau required. Strong analytical thinking and communication skills needed."
+  },
+  {
+    "title": "Full Stack Developer",
+    "company": "WebWorks",
+    "description": "We need a Full Stack Developer proficient in React, Node.js, JavaScript, HTML, CSS, and REST APIs. Experience with MongoDB, PostgreSQL, Docker, and CI/CD pipelines is required. Strong teamwork and problem-solving skills are essential."
+  },
+  {
+    "title": "DevOps Engineer",
+    "company": "CloudBase",
+    "description": "Hiring a DevOps Engineer with expertise in Docker, Kubernetes, Jenkins, Terraform, and AWS. Must know Linux, CI/CD, infrastructure as code, and monitoring tools. Strong scripting skills in Bash or Python required."
+  },
+  {
+    "title": "Data Analyst",
+    "company": "InsightCo",
+    "description": "Seeking a Data Analyst with strong skills in SQL, Excel, Python, Power BI, and Tableau. Must be able to perform data cleaning, exploratory data analysis, and create dashboards. Good communication and attention to detail are required."
+  },
+  {
+    "title": "Backend Developer",
+    "company": "ServerSide Ltd",
+    "description": "Looking for a Backend Developer experienced in Python, Java, or Node.js with strong knowledge of REST APIs, microservices, PostgreSQL, and Redis. Docker and Kubernetes experience is a plus. Must follow clean code and SOLID principles."
+  },
+  {
+    "title": "NLP Engineer",
+    "company": "LangTech",
+    "description": "We are hiring an NLP Engineer with experience in Natural Language Processing, BERT, Hugging Face Transformers, spaCy, and Python. Must know text classification, sentiment analysis, and named entity recognition. Deep learning experience required."
+  }
+]

@@ -6,7 +6,7 @@ scipy==1.13.1
 scikit-learn==1.5.2
 
 pdfplumber==0.11.6
-pdfminer.six==20250506
+pdfminer.six==20250327
 python-docx==1.1.2
 
 spacy==3.7.5
@@ -17,3 +17,4 @@ sentence-transformers==3.0.1
 torch==2.3.1
 
 https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1.tar.gz
+

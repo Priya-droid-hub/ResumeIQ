@@ -1,9 +1,10 @@
-import streamlit as st
 
-from theme import apply_theme
 import streamlit as st
 import sys
 import os
+
+from theme import apply_theme
+
 
 # Path setup
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -12,18 +13,21 @@ sys.path.insert(0, ROOT)
 from analyzer.parser import parse_resume
 from analyzer.ner import analyze_resume
 
+
 st.set_page_config(
     page_title="Resume Analyzer",
-    page_icon="📄",
+    page_icon="▤",
     layout="wide"
 )
 
 apply_theme()
+
+
 # ---------------------------------------------------------
 # TITLE
 # ---------------------------------------------------------
 
-st.title("📄 Resume Analyzer")
+st.title("▤ Resume Analyzer")
 
 st.caption(
     "Extract your skills, contact information, organizations "
@@ -37,7 +41,7 @@ st.divider()
 # UPLOAD
 # ---------------------------------------------------------
 
-st.subheader("📤 Upload Your Resume")
+st.subheader("↑ Upload Your Resume")
 
 st.write(
     "Upload your latest resume in PDF or DOCX format to begin the analysis."
@@ -92,7 +96,7 @@ if uploaded_file is not None:
     # RESUME OVERVIEW
     # ---------------------------------------------------------
 
-    st.subheader("📊 Resume Overview")
+    st.subheader("▦ Resume Overview")
 
     st.caption("Quick statistics from your uploaded resume.")
 
@@ -152,24 +156,24 @@ if uploaded_file is not None:
     # CONTACT INFORMATION
     # ---------------------------------------------------------
 
-    st.subheader("📇 Contact Information")
+    st.subheader("Contact Information")
 
     contact_col1, contact_col2, contact_col3 = st.columns(3)
 
     with contact_col1:
-        st.caption("👤 Name")
+        st.caption("Name")
         st.write(
             result.get("name") or "Not detected"
         )
 
     with contact_col2:
-        st.caption("📧 Email")
+        st.caption("Email")
         st.write(
             result.get("email") or "Not detected"
         )
 
     with contact_col3:
-        st.caption("📱 Phone")
+        st.caption("Phone")
         st.write(
             result.get("phone") or "Not detected"
         )
@@ -182,7 +186,7 @@ if uploaded_file is not None:
     # SKILLS
     # ---------------------------------------------------------
 
-    st.subheader("🛠️ Skills Detected")
+    st.subheader("⚙ Skills Detected")
 
     skills = result.get("skills", [])
 
@@ -214,7 +218,7 @@ if uploaded_file is not None:
     # ORGANIZATIONS
     # ---------------------------------------------------------
 
-    st.subheader("🏢 Organizations Detected")
+    st.subheader("▰ Organizations Detected")
 
     organizations = result.get("organizations", [])
 
@@ -239,7 +243,7 @@ if uploaded_file is not None:
     # RESUME SECTIONS
     # ---------------------------------------------------------
 
-    st.subheader("📋 Resume Sections")
+    st.subheader("☷ Resume Sections")
 
     if sections:
 
@@ -287,7 +291,7 @@ if uploaded_file is not None:
     # ---------------------------------------------------------
 
     with st.expander(
-            "📃 View Extracted Resume Text"
+            "▤ View Extracted Resume Text"
     ):
 
         st.text_area(
@@ -302,7 +306,7 @@ if uploaded_file is not None:
     # ---------------------------------------------------------
 
     st.info(
-        "🎯 Next step: Open **Job Matcher** from the sidebar "
+        "→ Next step: Open **Job Matcher** from the sidebar "
         "to compare your resume with a job description."
     )
 
@@ -310,5 +314,5 @@ if uploaded_file is not None:
 else:
 
     st.info(
-        "📄 Please upload a PDF or DOCX resume to get started."
+        "▤ Please upload a PDF or DOCX resume to get started."
     )

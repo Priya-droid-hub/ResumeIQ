@@ -10,7 +10,7 @@ from theme import apply_theme
 
 st.set_page_config(
     page_title="ResumeIQ",
-    page_icon="📄",
+    page_icon="▣",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -29,7 +29,7 @@ apply_theme()
 
 with st.sidebar:
 
-    st.title("📄 ResumeIQ")
+    st.title("▣ ResumeIQ")
 
     st.caption("AI-powered Resume Analysis")
 
@@ -49,7 +49,7 @@ with st.sidebar:
 # MAIN PAGE
 # =========================================================
 
-st.title("📄 ResumeIQ")
+st.title("▣ ResumeIQ")
 
 st.subheader(
     "AI-powered resume analysis, job matching & ATS scoring"
@@ -67,27 +67,27 @@ st.divider()
 # HOW IT WORKS
 # =========================================================
 
-st.subheader("🚀 How It Works")
+st.subheader("How It Works")
 
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
-    st.subheader("1️⃣")
+    st.subheader("01")
     st.write("**Upload Resume**")
     st.caption("PDF or DOCX")
 
 with col2:
-    st.subheader("2️⃣")
+    st.subheader("02")
     st.write("**Analyze Skills**")
     st.caption("NLP & NER")
 
 with col3:
-    st.subheader("3️⃣")
+    st.subheader("03")
     st.write("**Match Jobs**")
     st.caption("BERT + TF-IDF")
 
 with col4:
-    st.subheader("4️⃣")
+    st.subheader("04")
     st.write("**Get Score**")
     st.caption("ATS Analysis")
 
@@ -99,21 +99,21 @@ st.divider()
 # FEATURES
 # =========================================================
 
-st.subheader("✨ Features")
+st.subheader("Features")
 
 col1, col2 = st.columns(2)
 
 with col1:
 
     with st.container(border=True):
-        st.subheader("📊 Resume Analyzer")
+        st.subheader("▤ Resume Analyzer")
         st.write(
             "Extract skills, contact information, organizations, "
             "and important resume sections using NLP."
         )
 
     with st.container(border=True):
-        st.subheader("🎯 ATS Scorer")
+        st.subheader("◎ ATS Scorer")
         st.write(
             "Evaluate your resume based on keywords, sections, "
             "skills coverage, and ATS-friendly formatting."
@@ -123,14 +123,14 @@ with col1:
 with col2:
 
     with st.container(border=True):
-        st.subheader("💼 Job Matcher")
+        st.subheader("▰ Job Matcher")
         st.write(
             "Compare your resume with job descriptions using "
             "semantic similarity and keyword matching."
         )
 
     with st.container(border=True):
-        st.subheader("💡 Improvements")
+        st.subheader("✦ Improvements")
         st.write(
             "Find missing skills, keywords, and areas where "
             "your resume can be improved."
@@ -144,7 +144,7 @@ st.divider()
 # GET STARTED
 # =========================================================
 
-st.subheader("👈 Get Started")
+st.subheader("→ Get Started")
 
 st.info(
     "Select **Resume Analyzer** from the sidebar to upload "
@@ -156,7 +156,7 @@ st.info(
 # TECH STACK
 # =========================================================
 
-with st.expander("🛠️ Tech Stack"):
+with st.expander("⚙ Tech Stack"):
 
     col1, col2 = st.columns(2)
 

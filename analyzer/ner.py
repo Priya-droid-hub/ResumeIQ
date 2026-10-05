@@ -8,10 +8,9 @@ import spacy
 
 @st.cache_resource
 def load_nlp():
-    try:
-        return spacy.load("en_core_web_sm")
-    except OSError:
-        return spacy.load("en_core_web_md")
+    return spacy.load("en_core_web_lg")
+
+nlp = load_nlp()
 
 
 nlp = load_nlp()
